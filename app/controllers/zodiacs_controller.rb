@@ -70,4 +70,8 @@ class ZodiacsController < ApplicationController
 
     render 'fish'
   end
+
+  def sign
+    @sign = params[:the_sign]
+  end
 end
